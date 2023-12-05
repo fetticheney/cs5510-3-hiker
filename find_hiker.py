@@ -1,9 +1,7 @@
 import torch
 import torchvision.models as models
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
-from PIL import Image
 from torchvision import transforms
+from PIL import Image
 from images.world import create_map
 
 # Initialize model
